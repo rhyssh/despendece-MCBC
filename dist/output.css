@@ -1062,6 +1062,10 @@ input:checked + .toggle-bg {
   position: relative;
 }
 
+.sticky {
+  position: sticky;
+}
+
 .inset-0 {
   inset: 0px;
 }
@@ -1903,6 +1907,11 @@ input:checked + .toggle-bg {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
 
+.invert {
+  --tw-invert: invert(100%);
+  filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
+}
+
 .filter {
   filter: var(--tw-blur) var(--tw-brightness) var(--tw-contrast) var(--tw-grayscale) var(--tw-hue-rotate) var(--tw-invert) var(--tw-saturate) var(--tw-sepia) var(--tw-drop-shadow);
 }
@@ -2176,10 +2185,6 @@ input:checked + .toggle-bg {
     width: 100%;
   }
 
-  .min-\[320px\]\:w-6 {
-    width: 1.5rem;
-  }
-
   .min-\[320px\]\:flex-col {
     flex-direction: column;
   }
@@ -2236,6 +2241,10 @@ input:checked + .toggle-bg {
     padding-top: 2.5rem;
   }
 
+  .min-\[320px\]\:pt-20 {
+    padding-top: 5rem;
+  }
+
   .min-\[320px\]\:pt-4 {
     padding-top: 1rem;
   }
@@ -2246,10 +2255,6 @@ input:checked + .toggle-bg {
 
   .min-\[320px\]\:pt-8 {
     padding-top: 2rem;
-  }
-
-  .min-\[320px\]\:pt-20 {
-    padding-top: 5rem;
   }
 
   .min-\[320px\]\:text-2xl {
